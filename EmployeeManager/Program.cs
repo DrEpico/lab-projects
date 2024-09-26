@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EmployeeManager 
+namespace Employee
 {
     class Program
     {
@@ -9,6 +9,9 @@ namespace EmployeeManager
             Employee employee = new Employee("Koby Hills", "D65", 35);
             Console.WriteLine(employee.ToString());
 
+            string name = "Wolfeschlegelsteinhausenbergerdorff";
+            Console.WriteLine($"Is the name valid? {Employee.isValidName(name)}");
+            
             Console.ReadLine();
         }
     }
