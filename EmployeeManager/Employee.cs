@@ -1,13 +1,13 @@
 ﻿using System;
 
-    class Employee
+    class EmployeeManager
     {
         public string employeeName { get; set; }
         public string employeeID { get; set; }
         public double hoursWorked { get; set; }
         public double hourlyRate = 9.5;
 
-        public Employee(string employeeName, string employeeID, double hoursWorked)
+        public EmployeeManager(string employeeName, string employeeID, double hoursWorked)
         {
             this.employeeName = employeeName;
             this.employeeID = employeeID;
