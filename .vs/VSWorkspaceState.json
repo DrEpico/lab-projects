@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\EmployeeManager",
-    "\\EmployeeManager\\obj",
-    "\\EmployeeManager\\obj\\Debug",
-    "\\EmployeeManager\\obj\\Debug\\net8.0"
+    "\\EmployeeManager"
   ],
-  "SelectedNode": "\\EmployeeManager\\obj\\Debug\\net8.0\\EmployeeManager.AssemblyInfo.cs",
+  "SelectedNode": "\\EmployeeManager\\Employee.cs",
   "PreviewInSolutionExplorer": false
 }
