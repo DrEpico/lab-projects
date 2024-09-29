@@ -9,11 +9,8 @@ namespace Employee
             // Create an instance of EmployeeManager
             EmployeeManager manager = new EmployeeManager();
 
-            // Take input and create an employee
-            Employee employee = manager.CreateEmployee();
-
-            // Display the employee details
-            Console.WriteLine("\n" + employee.ToString());
+            // Display the menu and handle user input
+            manager.DisplayMenu();
 
             Console.ReadLine(); // Keep the console window open
         }
