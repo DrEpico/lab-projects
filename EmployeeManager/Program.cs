@@ -6,13 +6,16 @@ namespace Employee
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee("Koby Hills", "D65", 35);
+            Employee employee = new Employee("", "", 0);
+
+            // Take input for employee details using takeInfo method
+            employee.takeInfo();
+
+            // Optionally, display the employee details and weekly wage again
+            Console.WriteLine("\nSummary:");
             Console.WriteLine(employee.ToString());
 
-            string name = "Wolfeschlegelsteinhausenbergerdorff";
-            Console.WriteLine($"Is the name valid? {Employee.isValidName(name)}");
-            
-            Console.ReadLine();
+            Console.ReadLine(); // Keep the console window open
         }
     }
 }

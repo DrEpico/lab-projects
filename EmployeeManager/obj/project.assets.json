@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\c2197694\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\adada\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\c2197694\\Source\\Repos\\DrEpico\\lab-projects\\EmployeeManager\\EmployeeManager.csproj",
+      "projectUniqueName": "C:\\Users\\adada\\Source\\Repos\\DrEpico\\lab-projects\\EmployeeManager\\EmployeeManager.csproj",
       "projectName": "EmployeeManager",
-      "projectPath": "C:\\Users\\c2197694\\Source\\Repos\\DrEpico\\lab-projects\\EmployeeManager\\EmployeeManager.csproj",
-      "packagesPath": "C:\\Users\\c2197694\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\c2197694\\Source\\Repos\\DrEpico\\lab-projects\\EmployeeManager\\obj\\",
+      "projectPath": "C:\\Users\\adada\\Source\\Repos\\DrEpico\\lab-projects\\EmployeeManager\\EmployeeManager.csproj",
+      "packagesPath": "C:\\Users\\adada\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adada\\Source\\Repos\\DrEpico\\lab-projects\\EmployeeManager\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\c2197694\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\adada\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
