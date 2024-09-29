@@ -13,12 +13,9 @@ C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\ne
 C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\EmployeeManager.pdb
 C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\EmployeeManager.genruntimeconfig.cache
 C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\ref\EmployeeManager.dll
-C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\EmployeeManager.dll
-C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\refint\EmployeeManager.dll
-C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\EmployeeManager.pdb
 C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\bin\Debug\net8.0\EmployeeManager.exe
-C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\bin\Debug\net8.0\EmployeeManager.deps.json
-C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\bin\Debug\net8.0\EmployeeManager.runtimeconfig.json
+C:\Users\adada\source\repos\DrEpico\lab-projects\EmployeeManager\bin\Debug\net8.0\EmployeeManager.deps.json
+C:\Users\adada\source\repos\DrEpico\lab-projects\EmployeeManager\bin\Debug\net8.0\EmployeeManager.runtimeconfig.json
 C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\bin\Debug\net8.0\EmployeeManager.dll
 C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\bin\Debug\net8.0\EmployeeManager.pdb
 C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\EmployeeManager.GeneratedMSBuildEditorConfig.editorconfig
@@ -26,5 +23,8 @@ C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.
 C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\EmployeeManager.AssemblyInfo.cs
 C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\EmployeeManager.csproj.CoreCompileInputs.cache
 C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\EmployeeManager.sourcelink.json
-C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\EmployeeManager.genruntimeconfig.cache
-C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\ref\EmployeeManager.dll
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\EmployeeManager.dll
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\refint\EmployeeManager.dll
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\EmployeeManager.pdb
+C:\Users\adada\source\repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\EmployeeManager.genruntimeconfig.cache
+C:\Users\adada\source\repos\DrEpico\lab-projects\EmployeeManager\obj\Debug\net8.0\ref\EmployeeManager.dll
