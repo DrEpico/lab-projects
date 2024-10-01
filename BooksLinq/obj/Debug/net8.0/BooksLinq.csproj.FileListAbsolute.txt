@@ -1,0 +1,15 @@
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\bin\Debug\net8.0\BooksLinq.exe
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\bin\Debug\net8.0\BooksLinq.deps.json
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\bin\Debug\net8.0\BooksLinq.runtimeconfig.json
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\bin\Debug\net8.0\BooksLinq.dll
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\bin\Debug\net8.0\BooksLinq.pdb
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\obj\Debug\net8.0\BooksLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\obj\Debug\net8.0\BooksLinq.AssemblyInfoInputs.cache
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\obj\Debug\net8.0\BooksLinq.AssemblyInfo.cs
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\obj\Debug\net8.0\BooksLinq.csproj.CoreCompileInputs.cache
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\obj\Debug\net8.0\BooksLinq.sourcelink.json
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\obj\Debug\net8.0\BooksLinq.dll
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\obj\Debug\net8.0\refint\BooksLinq.dll
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\obj\Debug\net8.0\BooksLinq.pdb
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\obj\Debug\net8.0\BooksLinq.genruntimeconfig.cache
+C:\Users\c2197694\Source\Repos\DrEpico\lab-projects\BooksLinq\obj\Debug\net8.0\ref\BooksLinq.dll
