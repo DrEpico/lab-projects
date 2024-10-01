@@ -1,5 +1,8 @@
 ﻿
 
+using System.ComponentModel.DataAnnotations;
+using System.Net;
+
 Console.WriteLine("Book List LINQ\n");
 
 var books = new List<Book>
@@ -43,3 +46,23 @@ new Book(18, "The Body Keeps the Score", "Bessel van der Kolk", 464,
 );
 
 Book.DisplayBookList(books);
+
+Console.WriteLine("\nTolkein Books");
+var TolkeinBooks = books
+    .Where(b => b.Author == "J.R.R. Tolkien")
+    .ToList();
+Book.DisplayBookList(TolkeinBooks);
+
+Console.WriteLine("\nTolkien Or Coelho Books");
+var tolkienOrCoelhoBooks = books
+    .Where(b => b.Author == "J.R.R. Tolkien" || b.Author == "Paulo Coelho")
+    .ToList();
+Book.DisplayBookList(tolkienOrCoelhoBooks);
+
+Console.WriteLine("\nBooks with IS in the title");
+var isBooks = books
+    .Where(b => b.Title.Contains("is", StringComparison.CurrentCultureIgnoreCase))
+    .ToList();
+Book.DisplayBookList(isBooks);
+
+
