@@ -23,8 +23,7 @@ public class Book
 		IsClassic = false;
 	}
 
-	public Book(int id, string title, string author, int pageCount, string author, 
-		int pageCount, string publisher, int publishedYear, string genre)
+	public Book(int id, string title, string author, int pageCount, string publisher, int publishedYear, string genre, bool isClassic)
 	{
 		Id = id;
 		Title = title;
