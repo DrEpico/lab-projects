@@ -2,6 +2,7 @@
 
 using System.ComponentModel.DataAnnotations;
 using System.Net;
+using System.Text;
 
 Console.WriteLine("Book List LINQ\n");
 
@@ -65,4 +66,16 @@ var isBooks = books
     .ToList();
 Book.DisplayBookList(isBooks);
 
+Console.WriteLine("\nBooks with a page count between 450 and 1000 (invlusive)");
+var mediumSizeBooks = books
+    .Where(b => b.PageCount >= 450 && b.PageCount <= 1000)
+    .ToList();
+Book.DisplayBookList(mediumSizeBooks);
+
+Console.WriteLine("\nBooks in the Autobiography and Romance Genre");
+var genrefilteredList = new List<string> { "Autobiography", "Romance" };
+var GenreFilteredBooks = books
+    .Where(b => genrefilteredList.Contains(b.Genre))
+    .ToList();
+Book.DisplayBookList(GenreFilteredBooks);
 
