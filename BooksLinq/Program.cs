@@ -79,3 +79,16 @@ var GenreFilteredBooks = books
     .ToList();
 Book.DisplayBookList(GenreFilteredBooks);
 
+Console.WriteLine("\nBooks sorted by Genre");
+var booksSortedByGenre = books
+    .OrderBy(b => b.Genre)
+    .ToList();
+Book.DisplayBookList(booksSortedByGenre);
+
+Console.WriteLine("\nBooks sorted by Genre and Title");
+var booksSortedByGenreAndTitle = books
+    .OrderBy(b => b.Genre).
+    .ThenBy(b => b.Title)
+    .ToList();
+Book.DisplayBookList(booksSortedByGenreAndTitle);
+
