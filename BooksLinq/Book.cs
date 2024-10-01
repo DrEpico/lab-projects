@@ -41,6 +41,11 @@ public class Book
 			$"\n Pages: {PageCount}, Genre: {Genre}, Classic: {IsClassic}";
 	}
 
-
-	
+	public static void DisplayBookList(List<Book> bookList)
+	{
+		foreach (Book book in bookList)
+		{
+			Console.WriteLine(book);
+		}
+	}
 }
