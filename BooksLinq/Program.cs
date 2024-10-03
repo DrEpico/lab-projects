@@ -135,6 +135,12 @@ var classicAndMoreThan300Pages = books
     .ToList();
 Book.DisplayBookList(classicAndMoreThan300Pages);
 
+Console.WriteLine("\nBooks that are not classic and were published after 1950");
+var nonClassicAfter1950 = books
+    .Where(b => !b.IsClassic && b.PublishedYear > 1950)
+    .ToList();
+Book.DisplayBookList(nonClassicAfter1950);
+
 
 
 
