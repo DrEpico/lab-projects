@@ -107,3 +107,28 @@ Console.WriteLine($"Oldest Year Published: {oldestBookYear}");
 var newestBookYear = books
     .Max(b => b.PublishedYear); //extract year as part of Max
 Console.WriteLine($"Most Recent Year Published: {newestBookYear}");
+
+Console.WriteLine("\nJ.R.R Tolkien first book");
+var tolkienFirstBook = books
+    .Where(b => b.Author == "J.R.R Tolkien")
+    .OrderBy(b => b.PublishedYear)
+    .FirstOrDefault(); //get first book from list
+Console.WriteLine(tolkienFirstBook);
+
+Console.WriteLine("\nBook Count for each genre");
+var genreCounts = books
+    .GroupBy(b => b.Genre) //Create a shortcut of records for each genre
+    .OrderBy(g => g.Key) //optional: sort by genre [key]
+    .Select(g => new { //Create an anonymous class with: 
+        Genre = g.Key, // - Genre [the group key]
+        Count = g.Count() // - A count of the subset of Genre records
+    }).ToList();
+
+foreach (var gc in genreCounts)
+{
+    Console.WriteLine($"{gc.Genre} : {gc.Count}");
+}
+
+
+
+
