@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BooksLinq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61903de5832a70668f9fa440ab77a0906a8dbbcc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+040474c976e87a6cc5851929cc6501cb90fa2710")]
 [assembly: System.Reflection.AssemblyProductAttribute("BooksLinq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BooksLinq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

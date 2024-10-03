@@ -87,8 +87,23 @@ Book.DisplayBookList(booksSortedByGenre);
 
 Console.WriteLine("\nBooks sorted by Genre and Title");
 var booksSortedByGenreAndTitle = books
-    .OrderBy(b => b.Genre).
+    .OrderBy(b => b.Genre)
     .ThenBy(b => b.Title)
     .ToList();
 Book.DisplayBookList(booksSortedByGenreAndTitle);
 
+Console.WriteLine("\nBooks sorted by Year Published (latest first) and Title");
+var booksSortedByGenreAndYear = books
+    .OrderByDescending(b => b.PublishedYear)
+    .ThenBy(b => b.Title)
+    .ToList();
+Book.DisplayBookList(booksSortedByGenreAndYear);
+
+Console.WriteLine("\nOldest and newest book - Year Published");
+var oldestBookYear = books
+    .Select(b => b.PublishedYear) //extract years
+    .Min(); //then find min
+Console.WriteLine($"Oldest Year Published: {oldestBookYear}");
+var newestBookYear = books
+    .Max(b => b.PublishedYear); //extract year as part of Max
+Console.WriteLine($"Most Recent Year Published: {newestBookYear}");
