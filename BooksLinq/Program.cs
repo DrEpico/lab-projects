@@ -129,6 +129,13 @@ foreach (var gc in genreCounts)
     Console.WriteLine($"{gc.Genre} : {gc.Count}");
 }
 
+Console.WriteLine("\nBooks that are classic and have more than 300 pages");
+var classicAndMoreThan300Pages = books
+    .Where(b => b.PageCount > 300 && b.IsClassic)
+    .ToList();
+Book.DisplayBookList(classicAndMoreThan300Pages);
+
+
 
 
 
