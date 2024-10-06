@@ -141,6 +141,21 @@ var nonClassicAfter1950 = books
     .ToList();
 Book.DisplayBookList(nonClassicAfter1950);
 
+Console.WriteLine("\nBooks by George Allen & Unwin and order them by page count");
+var byGeorgeAllenAndUnwinAndSortByPagecount = books
+    .Where(b => b.Publisher == "George Allen & Unwin")
+    .OrderByDescending(b => b.PageCount)
+    .ToList();
+Book.DisplayBookList(byGeorgeAllenAndUnwinAndSortByPagecount);
+
+Console.WriteLine("\nBooks that are either classics or have more than 500 pages");
+var classicOrMoreThan500Pages = books
+    .Where(b => b.IsClassic || b.PageCount > 500)
+    .ToList();
+Book.DisplayBookList(classicOrMoreThan500Pages);
+
+Console.ReadLine();
+
 
 
 
