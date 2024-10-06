@@ -154,6 +154,20 @@ var classicOrMoreThan500Pages = books
     .ToList();
 Book.DisplayBookList(classicOrMoreThan500Pages);
 
+Console.WriteLine("\nAverage page count of books in each genre");
+var avgPageCountOfBooksInEachGenre = books
+    .GroupBy(b => b.Genre)
+    .Select(group => new
+    {
+        Genre = group.Key,
+        AveragePageCount = group.Average(b => b.PageCount) 
+    })
+    .ToList();
+foreach (var genre in avgPageCountOfBooksInEachGenre)
+{
+    Console.WriteLine($"{genre.Genre}, Average Page Count: {genre.AveragePageCount}");
+}
+
 Console.ReadLine();
 
 
