@@ -1,0 +1,15 @@
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\bin\Debug\net8.0\StudentListLinq.exe
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\bin\Debug\net8.0\StudentListLinq.deps.json
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\bin\Debug\net8.0\StudentListLinq.runtimeconfig.json
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\bin\Debug\net8.0\StudentListLinq.dll
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\bin\Debug\net8.0\StudentListLinq.pdb
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\obj\Debug\net8.0\StudentListLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\obj\Debug\net8.0\StudentListLinq.AssemblyInfoInputs.cache
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\obj\Debug\net8.0\StudentListLinq.AssemblyInfo.cs
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\obj\Debug\net8.0\StudentListLinq.csproj.CoreCompileInputs.cache
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\obj\Debug\net8.0\StudentListLinq.sourcelink.json
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\obj\Debug\net8.0\StudentListLinq.dll
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\obj\Debug\net8.0\refint\StudentListLinq.dll
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\obj\Debug\net8.0\StudentListLinq.pdb
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\obj\Debug\net8.0\StudentListLinq.genruntimeconfig.cache
+C:\Users\adada\Source\Repos\DrEpico\lab-projects\StudentListLinq\obj\Debug\net8.0\ref\StudentListLinq.dll
